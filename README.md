@@ -38,6 +38,14 @@ The 32-bit registers are further divided into two parts:
 
 <br>
 
+<center>
+<h5>64-bit Registers</h5>
+</center>
+The 64-bit registers are further divided into two parts:
+1. 64-bit integer registers
+2. 64-bit floating point registers
+
+<br>
 
 
 
