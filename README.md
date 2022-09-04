@@ -91,9 +91,145 @@ The instructions in MIPS are divided into three formats:
 
 <br>
 
-<center>
+<!-- <center>
 <h3>R-Type</h3>
 </center>
 The R-Type instructions are used to perform arithmetic operations. The R-Type instructions are divided into two parts:
 1. Arithmetic Instructions
 2. Logical Instructions
+
+<br>
+
+<center>
+<h4>Arithmetic Instructions</h4>
+</center>
+The arithmetic instructions are used to perform arithmetic operations. The arithmetic instructions are divided into two parts:
+1. Add
+2. Subtract
+
+<br>
+
+<center>
+<h5>Logical Instructions</h5>
+</center>
+The logical instructions are used to perform logical operations. The logical instructions are divided into two parts:
+1. AND
+2. OR
+
+<br>
+
+<center>
+<h3>I-Type</h3>
+</center>
+The I-Type instructions are used to perform arithmetic operations. The I-Type instructions are divided into two parts:
+1. Arithmetic Instructions
+2. Logical Instructions
+
+<br>
+
+<center>
+<h4>Arithmetic Instructions</h4>
+</center>
+The arithmetic instructions are used to perform arithmetic operations. The arithmetic instructions are divided into two parts:
+1. Add
+2. Subtract
+
+<br>
+
+<center>
+<h5>Logical Instructions</h5>
+</center>
+
+The logical instructions are used to perform logical operations. The logical instructions are divided into two parts:
+1. AND
+2. OR
+
+<br>
+
+<center>
+<h3>J-Type</h3>
+</center>
+The J-Type instructions are used to perform arithmetic operations. The J-Type instructions are divided into two parts:
+1. Arithmetic Instructions
+2. Logical Instructions
+
+<br>
+
+<center>
+<h4>Arithmetic Instructions</h4>
+</center>
+
+The arithmetic instructions are used to perform arithmetic operations. The arithmetic instructions are divided into two parts:
+1. Add
+2. Subtract
+
+<br>
+
+<center>
+<h5>Logical Instructions</h5>
+</center>
+The logical instructions are used to perform logical operations. The logical instructions are divided into two parts:
+1. AND
+2. OR
+
+<br>
+
+<center>
+<h2>Instruction Set</h2>
+</center>
+The instruction set of MIPS is divided into two parts:
+1. Arithmetic Instructions
+2. Logical Instructions
+
+<br>
+
+<center>
+<h3>Arithmetic Instructions</h3>
+</center>
+The arithmetic instructions are used to perform arithmetic operations. The arithmetic instructions are divided into two parts:
+1. Add
+2. Subtract -->
+
+
+1. To add two numbers, we use the add instruction.
+
+Example: 
+```assembly
+add $t0, $t1, $t2
+```
+This instruction adds the contents of $t1 and $t2 and stores the result in $t0.
+
+<br>
+
+2. To subtract two numbers, we use the sub instruction.
+
+Example: 
+```assembly
+sub $t0, $t1, $t2
+```
+
+This instruction subtracts the contents of $t1 and $t2 and stores the result in $t0.
+
+<br>
+
+3. To multiply two numbers, we use the mul instruction.
+
+Example: 
+```assembly
+mul $t0, $t1, $t2
+```
+
+This instruction multiplies the contents of $t1 and $t2 and stores the result in $t0.
+
+<br>
+
+4. To divide two numbers, we use the div instruction.
+
+Example: 
+```assembly
+div $t0, $t1, $t2
+```
+
+This instruction divides the contents of $t1 and $t2 and stores the result in $t0.
+
+<br>
