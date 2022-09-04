@@ -48,6 +48,52 @@ The 64-bit registers are further divided into two parts:
 <br>
 
 
-
+Below is a list of all the registers in MIPS:
 
 <img src="assets/Registers.jpg">
+
+<br>
+
+<center>
+<h3>Special Purpose Registers</h3>
+</center>
+The special purpose registers are used to store the address of the next instruction to be executed. The special purpose registers are divided into two parts:
+1. Program Counter
+2. Stack Pointer
+
+<br>
+
+<center>
+<h4>Program Counter</h4>
+</center>
+The program counter is used to store the address of the next instruction to be executed. The program counter is divided into two parts:
+1. Program Counter Low
+2. Program Counter High
+
+<br>
+
+<center>
+<h5>Stack Pointer</h5>
+</center>
+The stack pointer is used to store the address of the top of the stack. The stack pointer is divided into two parts:
+1. Stack Pointer Low
+2. Stack Pointer High
+
+<br>
+
+<center>
+<h2>Instruction Formats</h2>
+</center>
+The instructions in MIPS are divided into three formats:
+1. R-Type
+2. I-Type
+3. J-Type
+
+<br>
+
+<center>
+<h3>R-Type</h3>
+</center>
+The R-Type instructions are used to perform arithmetic operations. The R-Type instructions are divided into two parts:
+1. Arithmetic Instructions
+2. Logical Instructions
