@@ -233,3 +233,25 @@ div $t0, $t1, $t2
 This instruction divides the contents of $t1 and $t2 and stores the result in $t0.
 
 <br>
+
+<!-- 5. To perform bitwise AND operation, we use the and instruction.
+
+Example: 
+```assembly
+and $t0, $t1, $t2
+```
+
+This instruction performs bitwise AND operation on the contents of $t1 and $t2 and stores the result in $t0.
+
+<br>
+
+6. To perform bitwise OR operation, we use the or instruction.
+
+Example: 
+```assembly
+or $t0, $t1, $t2
+```
+
+This instruction performs bitwise OR operation on the contents of $t1 and $t2 and stores the result in $t0.
+
+<br> -->
