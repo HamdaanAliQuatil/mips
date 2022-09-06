@@ -255,3 +255,33 @@ or $t0, $t1, $t2
 This instruction performs bitwise OR operation on the contents of $t1 and $t2 and stores the result in $t0.
 
 <br> -->
+
+To make loops in MIPS, we use the following instructions:
+1. beq
+2. bne
+3. blez
+4. bgtz
+
+<br>
+
+1. To make a loop that runs until a condition is true, we use the beq instruction.
+
+Example: 
+```assembly
+beq $t0, $t1, label
+```
+
+This instruction checks if the contents of $t0 and $t1 are equal. If they are equal, the program counter is set to the address of the label.
+
+<br>
+
+2. To make a loop that runs until a condition is false, we use the bne instruction.
+
+Example: 
+```assembly
+bne $t0, $t1, label
+```
+
+This instruction checks if the contents of $t0 and $t1 are not equal. If they are not equal, the program counter is set to the address of the label.
+
+<br>
