@@ -285,3 +285,26 @@ bne $t0, $t1, label
 This instruction checks if the contents of $t0 and $t1 are not equal. If they are not equal, the program counter is set to the address of the label.
 
 <br>
+
+3. To make a loop that runs until a condition is true, we use the blez instruction
+
+Example: 
+```assembly
+blez $t0, label
+```
+
+This instruction checks if the contents of $t0 is less than or equal to zero. If it is, the program counter is set to the address of the label.
+
+<br>
+
+4. To make a loop that runs until a condition is true, we use the bgtz instruction.
+
+Example: 
+```assembly
+bgtz $t0, label
+```
+
+This instruction checks if the contents of $t0 is greater than zero. If it is, the program counter is set to the address of the label.
+
+<br>
+
