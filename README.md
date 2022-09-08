@@ -308,3 +308,56 @@ This instruction checks if the contents of $t0 is greater than zero. If it is, t
 
 <br>
 
+If-Else statements in MIPS are made using the following instructions:
+1. beq
+2. bne
+3. blez
+4. bgtz
+
+<br>
+
+1. To make an if-else statement that runs until a condition is true, we use the beq instruction.
+
+Example: 
+```assembly
+beq $t0, $t1, label
+```
+
+This instruction checks if the contents of $t0 and $t1 are equal. If they are equal, the program counter is set to the address of the label.
+
+<br>
+
+2. To make an if-else statement that runs until a condition is false, we use the bne instruction.
+
+Example: 
+```assembly
+bne $t0, $t1, label
+```
+
+This instruction checks if the contents of $t0 and $t1 are not equal. If they are not equal, the program counter is set to the address of the label.
+
+<br>
+
+Practice Problem 1
+
+Write a program to print the sum of two numbers.
+
+Input Format
+
+The first line of input contains two integers, a and b.
+
+Output Format
+
+The output should contain the sum of a and b.
+
+Sample Input
+    
+    ```assembly
+    5 6
+    ```
+Sample Output
+    
+    ```assembly
+    11
+    ```
+
