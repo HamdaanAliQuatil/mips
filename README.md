@@ -360,4 +360,41 @@ Sample Output
     ```assembly
     11
     ```
+Explanation
+
+The sum of 5 and 6 is 11.
+
+<br>
+
+Practice Problem 2
+
+Write a program to print the difference of two numbers.
+
+Input Format
+
+The first line of input contains two integers, a and b.
+
+Output Format
+
+The output should contain the difference of a and b.
+
+Sample Input
+    
+    ```assembly
+    5 6
+    ```
+
+Sample Output
+    
+    ```assembly
+    -1
+    ```
+
+Explanation
+
+The difference of 5 and 6 is -1.
+
+<br>
+
+
 
