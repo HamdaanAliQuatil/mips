@@ -396,5 +396,35 @@ The difference of 5 and 6 is -1.
 
 <br>
 
+Practice Problem 3
+
+Write a program to print the product of two numbers.
+
+Input Format
+
+The first line of input contains two integers, a and b.
+
+Output Format
+
+The output should contain the product of a and b.
+
+Sample Input
+    
+    ```assembly
+    5 6
+    ```
+
+Sample Output
+    
+    ```assembly
+    30
+    ```
+
+Explanation
+
+The product of 5 and 6 is 30.
+
+<br>
+
 
 
