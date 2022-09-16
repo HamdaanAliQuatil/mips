@@ -456,5 +456,36 @@ The quotient of 5 and 6 is 0 and the remainder is 5.
 
 Practice Problem 5
 
+Write a program to print the sum of all the numbers from 1 to n.
+
+Input Format
+
+The first line of input contains an integer, n.
+
+Output Format
+
+The output should contain the sum of all the numbers from 1 to n.
+
+Sample Input
+    
+    ```assembly
+    5
+    ```
+
+Sample Output
+    
+    ```assembly
+
+    15
+    ```
+
+Explanation
+
+The sum of all the numbers from 1 to 5 is 15.
+
+<br>
+
+Practice Problem 6
+
 
 
