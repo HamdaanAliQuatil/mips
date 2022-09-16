@@ -426,5 +426,35 @@ The product of 5 and 6 is 30.
 
 <br>
 
+Practice Problem 4
+
+Write a program to print the quotient of two numbers.
+
+Input Format
+
+The first line of input contains two integers, a and b.
+
+Output Format
+
+The output should contain the quotient and remainder of a and b.
+
+Sample Input
+    
+    ```assembly
+    5 6
+    ```
+Sample Output
+    
+    ```assembly
+    0 5
+    ```
+Explanation
+
+The quotient of 5 and 6 is 0 and the remainder is 5.
+
+<br>
+
+Practice Problem 5
+
 
 
