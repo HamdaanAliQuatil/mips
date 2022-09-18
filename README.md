@@ -487,5 +487,66 @@ The sum of all the numbers from 1 to 5 is 15.
 
 Practice Problem 6
 
+Write a program to print the sum of all the even numbers from 1 to n.
+
+Input Format
+
+The first line of input contains an integer, n.
+
+Output Format
+
+The output should contain the sum of all the even numbers from 1 to n.
+
+Sample Input
+    
+    ```assembly
+    5
+    ```
+
+Sample Output
+    
+    ```assembly
+    6
+    ```
+
+Explanation
+
+The sum of all the even numbers from 1 to 5 is 6.
+
+<br>
+
+Practice Problem 7
+
+Write a program to print the sum of all the odd numbers from 1 to n.
+
+Input Format
+
+The first line of input contains an integer, n.
+
+Output Format
+
+The output should contain the sum of all the odd numbers from 1 to n.
+
+Sample Input
+    
+    ```assembly
+    5
+    ```
+
+Sample Output
+    
+    ```assembly
+
+    9
+    ```
+
+Explanation
+
+The sum of all the odd numbers from 1 to 5 is 9.
+
+<br>
+    
+
+
 
 
