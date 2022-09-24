@@ -545,6 +545,36 @@ Explanation
 The sum of all the odd numbers from 1 to 5 is 9.
 
 <br>
+
+Practice Problem 8
+
+Write a program to print the sum of all the numbers from 1 to n that are divisible by 3.
+
+Input Format
+
+The first line of input contains an integer, n.
+
+Output Format
+
+The output should contain the sum of all the numbers from 1 to n that are divisible by 3.
+
+Sample Input
+    
+    ```assembly
+    5
+    ```
+
+Sample Output
+    
+    ```assembly
+    9
+    ```
+
+Explanation
+
+The sum of all the numbers from 1 to 5 that are divisible by 3 is 9.
+
+<br>
     
 
 
