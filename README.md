@@ -576,6 +576,36 @@ The sum of all the numbers from 1 to 5 that are divisible by 3 is 9.
 
 <br>
     
+Practice Problem 9
+
+Write a program to print the sum of all the numbers from 1 to n that are divisible by 3 and 5.
+
+Input Format
+
+The first line of input contains an integer, n.
+
+Output Format
+
+The output should contain the sum of all the numbers from 1 to n that are divisible by 3 and 5.
+
+Sample Input
+    
+    ```assembly
+    5
+    ```
+
+Sample Output
+    
+    ```assembly
+    15
+    ```
+
+Explanation
+
+The sum of all the numbers from 1 to 5 that are divisible by 3 and 5 is 15.
+
+<br>
+
 
 
 
